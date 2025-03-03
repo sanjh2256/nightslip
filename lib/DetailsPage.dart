@@ -74,10 +74,6 @@ class _DetailsPageState extends State<DetailsPage> {
             },
           ),
         ),
-        title: Text(
-          'THE COMPUTER SOCIETY',
-          style: TextStyle(color: Colors.white, fontSize: 14),
-        ),
         actions: [
           InkWell(
             onTap: () {

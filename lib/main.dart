@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'LandingPage.dart';
 import 'DetailsPage.dart';
+import 'ImportPage.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -18,8 +19,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Roboto',
         scaffoldBackgroundColor: Colors.black,
       ),
-      home: DetailsPage(),
+      home: ImportPage(),
     );
   }
 }
-
